@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Deactivation Form</title>
+</head>
+<body>
+   <h1 style="font-family: arial; color: rgb(146, 16, 16); text-align: center;">Deactivation Form</h1><hr>
+   <form>
+       <fieldset>
+       <label for="FName">First Name:</label>
+       <input type="text" id="FIRSTNAME" placeholder="Enter FirstName"><br>
+       <br>
+       <label for="lname">Last Name:</label>
+       <input type="text" id="lname" placeholder="Enter LastName"><br>
+       <br>
+       <label for="Email">Email ID:</label>
+       <input type="email" id="Email" placeholder="Enter EMail"><br>
+       <br>
+       <label for="Mobile NO">Mobile No:</label>
+       <input type="number" id="Mobile NO" placeholder="Enter MobileNumber"><br>
+       <br></fieldset>
+       <fieldset>
+       <label for="UName">User Name:</label>
+       <input type="text" id="UName" placeholder="Enter UserName"><br>
+       <br>
+       <label for="PWD">PASSWORD:</label>
+       <input type="password" id="PWD" placeholder="Enter Password"><br>
+       <br> 
+       <label for="Confirm PWD">Confirm Password:</label>
+       <input type="password" id="Confirm pwd" placeholder="Confirm Password">
+       <br><br>
+       <b>Select Account:</b>
+        <select class="from-dropdown" id="input" data-components="from-dropdown" aria-label="Account">
+            <option value="">select</option>
+            <option value="">INSTAGRAM</option>
+            <option value="">FACEBOOK</option>
+        </select>
+       <br></fieldset>
+       <fieldset>
+       <h3>Do you want to cancel your INSTAGRAM or FACEBOOK ACCOUNT?</h3>
+       <input type="radio" id="I want to close my Instagram Account">
+       <label for="I want to cancel my Order">I want to close my Instagram Account</label><br>
+       <input type="radio" id="I want to close my Facebbok Account">
+       <label for="I want to cancel my Order">I want to close my Facebook Account</label><br>
+       <br> 
+       <h3>Reasons For Closing Account:</h3>
+    <label for="CLOSING ACCOUNT"></label>
+    <input type="checkbox" name="CLOSING ACCOUNT">Iam Not Interest <br>
+    <input type="checkbox" name="CLOSING ACCOUNT">concerned about my data <br>
+    <input type="checkbox" name="CLOSING ACCOUNT">Trouble getting Started <br>
+    <input type="checkbox" name="CLOSING ACCOUNT">Cannot Find people to follow <br>
+       <h3>Feedback:</h3>
+       <textarea name="Feedback" id="" cols="50" rows="10"></textarea> <br>
+       <input type="submit">
+       <input type="reset">
+    </fieldset>
+   </form>
+</body>
+</html>
